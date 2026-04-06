@@ -2,7 +2,7 @@ const STORAGE_KEY = "somali-pilot-conversations";
 const MODEL_KEY = "somali-pilot-model";
 const ACTIVE_CHAT_KEY = "somali-pilot-active-chat";
 // For production, replace localhost with deployed backend URL.
-const CHAT_API_URL = "http://localhost:3000/chat";
+const CHAT_API_URL = "https://somali-pilot-model.onrender.com/chat";
 const SYSTEM_PROMPT =
   "You are a Somali cultural assistant. Provide accurate, respectful, and concise answers about Somali culture, language, history, traditions, poetry, and identity.";
 
