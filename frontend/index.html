@@ -16,9 +16,10 @@
     <div class="bg-overlay"></div>
   </div>
 
-  <div class="app-shell">
+  <div class="app-shell app">
     <aside class="sidebar glass-panel" id="sidebar">
       <div class="sidebar-top">
+        <button class="sidebar-close" id="sidebarClose" type="button" aria-label="Close conversation sidebar">✕</button>
         <button class="new-chat-btn" id="newChatBtn" type="button">
           <span class="btn-icon">+</span>
           <span>New Chat</span>
@@ -39,7 +40,7 @@
       </div>
     </aside>
 
-    <main class="chat-layout">
+    <main class="chat-layout main">
       <header class="chat-header glass-panel">
         <div class="header-left">
           <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-label="Toggle conversation sidebar">
@@ -63,7 +64,7 @@
         <div class="messages" id="messages" aria-live="polite" aria-label="Conversation"></div>
 
         <form class="composer" id="chatForm">
-          <div class="input-shell">
+          <div class="input-shell input-container">
             <textarea
               id="messageInput"
               rows="1"
